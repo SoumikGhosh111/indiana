@@ -1,0 +1,49 @@
+.quick-links-wrapper {
+    margin-top: 2rem;
+    width: 100%;
+    height: 238px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--quick-links);
+    padding: 1rem 1rem;
+    border-radius: 20px;
+}
+
+.quick-links {
+    padding: 0rem 2rem;
+    padding-top: 2rem;
+    width: 50%;
+    border-right: 3px solid var(--nav-logo);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.16px;
+    height: 100%;
+    color: var(--nav-logo);
+}
+.quick-links a{ 
+    color: var(--nav-logo);
+}
+.followers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 95.9px;
+}
+
+.followers-users {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.62px;
+    letter-spacing: 0.08em;
+}
+.current-affairs-links{ 
+    align-items: flex-end;
+}
