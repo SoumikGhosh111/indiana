@@ -1,0 +1,70 @@
+.teammembers-wrapper {
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.teammembers-title {
+    width: 100%;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46.88px;
+    text-align: left;
+    border-bottom: 1px solid var(--discover-us-verline);
+    padding-bottom: 1rem;
+    margin-bottom: 4rem;
+}
+
+.teammembers-info-our-journey {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.teammembers-our-journey,
+.teammembers-info {
+    width: 40%;
+}
+
+.predefined {
+    /* font-family: Roboto; */
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+    letter-spacing: 12px;
+    text-align: justify;
+}
+
+.teammembers-info {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+    text-align: justify;
+
+}
+
+.memeber-images {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.member-name {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: center;
+
+    width: 177px;
+    height: 41px;
+    border-radius: 39px;
+    border: 1px solid var(--member-name-border);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 1rem;
+}

@@ -24,8 +24,9 @@ code {
   --quick-links: rgba(232, 232, 232, 1);
   --quick-links-text: rgba(0, 0, 0, 1); 
   --discover-us-verline: rgba(0, 0, 0, 0.5); 
+  --member-name-border: rgba(86, 86, 86, 1); 
 }
 
 .p-2rem-side-ways{ 
-  padding: 0rem 2rem;
+  padding: 0rem 4.5rem;
 }
