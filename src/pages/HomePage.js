@@ -4,6 +4,8 @@ import React from 'react';
 import CarouseComp from '../components/Carousel/CarouseComp';
 import QuickLinks from '../components/QuickLinks/QuickLinks';
 import Banner from '../components/Banner/Banner';
+// import DiscoverUS from '../homepage-comps/DiscoverUS/DiscoverUS';
+import DiscoverUS from '../homepage-comps/DiscoverUS/DiscoverUS';
 
 function HomePage() {
   return (
@@ -11,6 +13,7 @@ function HomePage() {
       <CarouseComp />
       <QuickLinks />
       <Banner />
+      <DiscoverUS />
     </div>
   )
 }

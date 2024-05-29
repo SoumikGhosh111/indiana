@@ -1,0 +1,43 @@
+.quick-links-p-2rem{ 
+    padding: 0rem 2rem;
+}
+
+.discover-us-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 358px;
+    margin-top: 8rem;
+}
+
+.discover-us-title,
+.discover-us-info {
+    width: 50%;
+    height: 100%;
+}
+
+.discover-us-title {
+    padding: 0rem 0.5rem;
+    width: 30%;
+    height: fit-content !important;
+    border-bottom: 1px solid var(--discover-us-verline);
+}
+
+.discover-us-info {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+    text-align: justified;
+    /* display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column; */
+    
+
+}
+
+.exploreus{ 
+    margin-top: 2rem;
+    transform: translate(-5%);
+}
