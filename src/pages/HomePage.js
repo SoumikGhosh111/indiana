@@ -7,6 +7,7 @@ import Banner from '../components/Banner/Banner';
 import DiscoverUS from '../homepage-comps/DiscoverUS/DiscoverUS';
 import Courses from '../homepage-comps/Courses/Courses';
 import TeamMembers from '../homepage-comps/TeamMembers/TeamMembers';
+import StudentTestimonial from '../homepage-comps/StudentTestimonial/StudentTestimonial';
 
 function HomePage() {
   return (
@@ -17,6 +18,7 @@ function HomePage() {
       <DiscoverUS />
       <Courses />
       <TeamMembers />
+      <StudentTestimonial />
     </div>
   )
 }

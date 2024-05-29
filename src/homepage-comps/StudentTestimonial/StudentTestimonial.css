@@ -1,0 +1,43 @@
+.student-testi-wrapper {
+    width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 10rem;
+}
+
+.student-testi-title {
+    margin-bottom: 3rem;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46.88px;
+    text-align: left;
+    border-bottom: 1px solid var(--discover-us-verline);
+}
+.testimonials{ 
+    width: 100%;
+    /* height: 500px; */
+    display: grid;  
+    grid-template-areas: 
+    'a b b c'
+    'a b b c'
+    'a d d e'
+    'f g g e'
+    ;
+    gap: 10px;
+}
+.testimonials .a { grid-area: a; height: 350.98px;}
+.testimonials .b { grid-area: b; height: 208.02px;}
+.testimonials .c { grid-area: c; height: 197.07px;}
+.testimonials .d { grid-area: d; height: 153.99px;}
+.testimonials .e { grid-area: e; height: 207.71px;}
+.testimonials .f { grid-area: f; height: 189.27px;}
+.testimonials .g { grid-area: g; height: 151.28px;}
+/* .testimonials .h { grid-area: h; } */
+
+.testi-cards{ 
+    border: 1px solid var(--student-testi);
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
