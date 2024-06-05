@@ -7,6 +7,7 @@ import ph2 from "../../assets/ph_2.svg";
 import facebook from "../../assets/facebook.svg";
 import instagram from "../../assets/instagram.svg";
 import telegram from "../../assets/telegram.svg";
+import siteLogo from "../../assets/SiteLogo.svg"; 
 
 function Footer() {
     return (
@@ -59,14 +60,30 @@ function Footer() {
             </div>
 
             <div className='footer-container-2'>
-                <div>Indiana</div>
-                <div></div>
-                <div></div>
+                <div className='footer-container-2-logo-address'>
+                    <div><img src={siteLogo} /></div>
+                    <div className='address'>Rampur Road Manohar Tala Bankura Near Boro Kali Mandir</div>
+                </div>
+                <a  href='tel:+1 800 854-36-80'>+1 800 854-36-80</a>
             </div>
             <div className='footer-container-3'>
-                <div></div>
+                <div className='copy-right'>© 2021 All Rights Reserved</div>
                 <ul>
-
+                    <li>
+                        <a href='#'>Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href='#'>Terms of Use</a>
+                    </li>
+                    <li>
+                        <a href='#'>Sties and Refunds</a>
+                    </li>
+                    <li>
+                        <a href='#'>Legal</a>
+                    </li>
+                    <li>
+                        <a href='#'>Site Map</a>
+                    </li>
                 </ul>
             </div>
         </div>
