@@ -25,7 +25,11 @@ code {
   --quick-links-text: rgba(0, 0, 0, 1); 
   --discover-us-verline: rgba(0, 0, 0, 0.5); 
   --member-name-border: rgba(86, 86, 86, 1); 
-  --student-testi:rgba(101, 101, 101, 1); 
+  --student-testi:rgba(101, 101, 101, 1);
+  --footer-body: rgba(14, 14, 17, 1);
+  --footer-text: rgba(255, 255, 255, 1); 
+  --footer-cont2-border: rgba(229, 231, 235, 1); 
+
 }
 
 .p-2rem-side-ways{ 
