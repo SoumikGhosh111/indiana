@@ -29,7 +29,8 @@ code {
   --footer-body: rgba(67, 98, 204, 1);
   --footer-text: rgba(255, 255, 255, 1); 
   --footer-cont2-border: rgba(229, 231, 235, 1); 
-
+  --register-section-btn: rgba(58, 91, 34, 1); 
+  --register-section-btn-hover: rgb(38, 60, 22); 
 }
 
 .p-2rem-side-ways{ 

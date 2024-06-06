@@ -1,6 +1,9 @@
 import React from 'react';
 import "./Footer.css"
 
+// importing react hooks
+import { useLocation } from 'react-router-dom';
+
 // importing images 
 import ph1 from "../../assets/ph_1.svg";
 import ph2 from "../../assets/ph_2.svg";
@@ -10,6 +13,11 @@ import telegram from "../../assets/telegram.svg";
 import siteLogo from "../../assets/SiteLogo.svg"; 
 
 function Footer() {
+    const location = useLocation(); 
+
+    if(location.pathname === '/login'){ 
+        return null; 
+    }
     return (
         <div className='footer-wrapper'>
             <div className='footer-container-1'>

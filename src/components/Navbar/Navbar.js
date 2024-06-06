@@ -1,6 +1,15 @@
 import React from 'react'
 import "./Navbar.css"
+
+// importing react hooks
+import { useLocation } from 'react-router-dom'
 function Navbar() {
+    const location = useLocation(); 
+
+    if(location.pathname === '/login'){ 
+        return null; 
+    }
+
   return (
     <div className='navbar-wrapper'>
             <div className='logo-wrapper-navbar'>
